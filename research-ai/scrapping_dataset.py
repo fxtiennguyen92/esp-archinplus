@@ -31,9 +31,6 @@ base_url = "https://stanislaschaillou.com/thesis/GAN/images/"
 ifrom = 501
 ito = 600
 
-
-
-
 for i in range(ifrom, ito):
     base_input_url = base_url + str(i) + input_url
     # Download the image
